@@ -226,7 +226,7 @@ header div {
 @media (max-width: 500px) {
   header img,
   header div {
-    width: 75%;
+    width: 90%;
     margin: 0 auto;
   }
   header img {
@@ -245,7 +245,7 @@ header div {
 }
 @media (max-width: 500px) {
   .home .content-section .text-content {
-    width: 75%;
+    width: 90%;
   }
 }
 .home .content-section .img-content {
@@ -257,7 +257,7 @@ header div {
 }
 @media (max-width: 500px) {
   .home .content-section .img-content {
-    width: 75%;
+    width: 90%;
   }
 }
 @media (max-width: 500px) {
@@ -277,7 +277,7 @@ header div {
 }
 @media (max-width: 500px) {
   .home .inverse-content .text-content {
-    width: 75%;
+    width: 90%;
   }
 }
 .home .inverse-content .img-content {
@@ -286,7 +286,7 @@ header div {
 }
 @media (max-width: 500px) {
   .home .inverse-content .img-content {
-    width: 75%;
+    width: 90%;
   }
 }
 @media (max-width: 500px) {
@@ -301,6 +301,11 @@ header div {
 }
 .home .content-destination img {
   border-radius: 10px;
+}
+@media (max-width: 500px) {
+  .home .content-destination {
+    width: 90%;
+  }
 }
 .home .content-pick {
   padding-top: 30px;
