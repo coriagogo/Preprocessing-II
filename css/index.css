@@ -213,13 +213,13 @@ header {
 header img {
   display: block;
   margin: 0 auto;
-  width: 80%;
+  width: 800px;
 }
 header div {
   border-bottom: 2px dashed #C0C0C0;
   margin: 30px auto;
   padding-bottom: 10px;
-  width: 80%;
+  width: 800px;
   display: flex;
   flex-wrap: wrap;
 }
@@ -350,10 +350,6 @@ header div {
   padding: 10px;
   border: 1px solid #17A2B8;
   border-radius: 10px;
-}
-.home .contact .radios {
-  display: flex;
-  justify-content: flex-start;
 }
 .home .contact label {
   display: flex;
