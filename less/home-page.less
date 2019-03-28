@@ -124,7 +124,6 @@ header {
       }
     }
 
-
     @media @phone {
       display: flex;
       flex-direction: column;
@@ -132,4 +131,44 @@ header {
     }
 
   }
+
+  .contact {
+    margin: 30px auto;
+    width: 400px;
+    padding: 10px;
+    border: 1px solid @eastern-blue;
+    border-radius: 10px;
+
+    label {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 10px auto;
+      width: 90%;
+      font-size: 1.6rem;
+      font-family: 'Roboto', sans-serif;
+    }
+
+    input, textarea {
+      width: 90%;
+      border: 1px solid @shark;
+      border-radius: 2px;
+      font-size: 1.6rem;
+    }
+
+    textarea {
+      height: 200px;
+      resize: none;
+
+    }
+
+    .button {
+      margin: 10px;
+      
+      button {
+        .custom-btn(50%,@eastern-blue,@white);
+        }
+      }
+    
+  }
+
 }// home
