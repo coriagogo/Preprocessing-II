@@ -196,8 +196,13 @@ img {
   font-size: 1.6rem;
   padding: 20px;
 }
-.home header {
+header {
   border-top: 2px dashed #C0C0C0;
+}
+header img {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
 }
 .home .content-section {
   margin: 30px 0;
@@ -253,4 +258,9 @@ img {
   border-radius: 10px;
   height: 45px;
   font-size: 1.6rem;
+}
+.home .content-pick button:hover {
+  background-color: #FFFFFF;
+  color: #17A2B8;
+  border: 1px solid #17A2B8;
 }
