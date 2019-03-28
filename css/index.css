@@ -190,6 +190,10 @@ img {
     display: flex;
     flex-direction: column;
     align-content: space-around;
+    margin: 10px auto;
+  }
+  .nav-container h1 {
+    margin: 20px 0;
   }
 }
 .footer {
